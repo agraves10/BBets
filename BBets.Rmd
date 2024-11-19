@@ -58,7 +58,7 @@ for (i in 1:1000) {
       border="blue",
       breaks=100)
 ```
-Brownlow would be losing 282.57 dollars from students.
+Brownlow would be losing 282.57 dollars from students.  
 # In the class and payoff as described  If you highered 40 brownlow substitute teachers to do the same thing that Brownlow did then.
 ```{r}
 mymin=numeric(1000)
