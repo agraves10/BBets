@@ -118,7 +118,7 @@ for (i in 1:1000) {
 
 <!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
-To figure out the how Brownlow's earnings become zero is with the odds of 4.389. This number was found through trial and error and this number was the most consistent for me. We were able to get a 95% confidence interval by marking our own low and high percentiles. We have a difference of 25 from 1000 and adding 25 from the bottom to make 95% of 1000 ensuring we get a 95% confidence interval.
+To determine how Brownlow's earnings reach zero with odds of 4.389, this value was obtained through trial and error and proved to be the most consistent. To calculate the 95% confidence interval, we identified the lower and upper percentiles manually. We subtracted 25 from 1000 and added another 25 from the bottom, ensuring that 95% of the values fell within this range to obtain the confidence interval.
 
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
@@ -149,7 +149,7 @@ for (i in 1:1000) {
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
-The class size of 28 is best, however this doesn't Brownlow's earnings to be zero, to have it become zero we need a decimal of students which is impossible. A class size of 29 is near 29 dollars while a class size of 28 is about -23 dollars. Meaning a class's size of 28 is best for Brownlow's earnings to get as close to 0. This was figured out through trial and error. 
+A class size of 28 is ideal for Brownlow's earnings, but this does not result in zero earnings. To achieve zero earnings, a fraction of a student would be required, which is not possible. A class size of 29 brings earnings closer to $29, while a class size of 28 results in earnings of approximately -$23. Therefore, a class size of 28 is the best option to minimize Brownlow's earnings and bring them closest to zero. This conclusion was reached through trial and error. 
 
 # The question from rubric, 35 students to make odds fair
 
@@ -183,4 +183,4 @@ With a class of 35 students having the odds of 4.367 is best to have fair odds.
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-Using BrLw.R we were able to see how Brownlow loses money from students due to the 2:1 odds. To change this to zero we could change the odds, and change the number of the class to make the earnings zero. With the odds of 4.389 and the number of class of 28. 
+Using BrLw.R, we analyzed how Brownlow's earnings are affected by the 2:1 odds, which result in a loss. To achieve zero earnings, we could modify either the odds or the class size. With odds of 4.389 and a class size of 28, the earnings would be close to zero.   
